@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#page1{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #DCEDF7; */
+    background-color: #d7f0ff;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    font-family:  monospace;
+    font-weight: bolder;
+    font-size: 15px;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-center;
+    align-items: center;
+    gap: 20px;
+}
+#main{
+    display: flex;
+    width: 100vw;
+    height: 120vh;
+}
+#page1 #main #left{
+    width: 50%;
+    height: 90%;
+    background-color: #d7f0ff;
+}
+#page1 #main #right{
+    width: 50%;    
+    height: 90%;
+    background-color: #d7f0ff;    
+}
+#right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#main-head{
+    font-size: 250px;
+    color: #6B6ECB;
+    font-family: 'Water Brush', cursive;
+    position: relative;
+    left: 40px;
+}
+#main-para1{
+    font-size: 50px;
+    font-family:roboto,monospace, 'Water Brush', cursive;
+    position: relative;
+    right: -350px;
+    top: -100px;
+}
+#main-para2{
+    padding-left: 50PX;
+}
+#main-btn{
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin-top: 15PX;
+    margin-left: 50PX;
+    background-color: #A62424;
+    color: white;
+}
+#mint img{
+    position: absolute;
+    bottom: -120px;
+    left:  550px;
+}
+#page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+}
+#page2-left{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    margin-top: 148px;
+}
+#page2-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+#page2-right{
+    margin-top: 148px;
+    width: 50%;
+    height: 100%;
+    /* background-color: #6B6ECB; */
+}
+#page2-head{
+    font-size: 50px;
+    font-family:roboto,monospace, 'Water Brush', cursive;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+#page2-para1{
+    font-size: 150px;
+    color: #6B6ECB;
+    font-family: 'Water Brush', cursive;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+#page2-para2{
+    font-family:roboto,monospace, 'Water Brush', cursive;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    right: 5px;
+    white-space: wrap;
+}
+#page2-btn{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px 15px;
+    background-color: #A62424;
+    color: white;
+}
+#page3{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #5a5bc3;
+    margin-top: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+#page3-head{
+    font-family:roboto,monospace, 'Water Brush', cursive;
+    font-size: 30px;
+    margin: 20px 0;
+}
+#menu-card{
+    margin: 30px 0;
+    font-family:roboto,monospace, 'Water Brush', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:50px;
+}
+.price span{
+    font-family: 'Water Brush';
+    padding-right: 5px;
+    font-size: 20px !important;
+}
+.price{
+    font-size: 30px;
+}
+#page4{
+    display: flex;
+}
+#page4-div3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+#page4-div3-innerdiv1{
+    font-size: 40px;
+    font-family:roboto,monospace, 'Water Brush', cursive;
+}
+#page4-div3-innerdiv2{
+    font-family:roboto,monospace, 'Water Brush', cursive;
+    margin-top: 30px;
+}
+#page4-mint{
+    z-index: 99;
+    position: absolute;
+    right: 50px;   
+}
+#page5{
+    width: 100vw;
+    height: 40vh;
+    background-color: #3D3EB0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#page5-head1{
+    color: #fff;
+    margin: 0 50px;
+    font-size: 35px;
+    font-family:roboto,monospace, 'Water Brush', cursive;
+}
+#page5-para1{
+    color: #fff;
+    margin: 20px 50px;    
+    font-size: 15px;
+    font-family:roboto,monospace, 'Water Brush', cursive;
+}
+#email-address{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 10px;
+}
+#page6{
+    font-family:roboto,monospace, 'Water Brush', cursive;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page6-items{
+    margin: 15px 0;
+}
+#footer{
+    font-family:roboto,monospace, 'Water Brush', cursive;
+    width: 100%;
+    height: 25%;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer-item{
+    display: flex;
+    gap: 30px;
+}
